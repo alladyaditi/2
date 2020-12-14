@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:background="#4646EF"
+    android:orientation="vertical"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:textSize="35sp"
+        android:text="YELP"
+        android:gravity="center"
+        android:textColor="#ccc"
+        android:layout_marginTop="120dp"
+        android:layout_height="wrap_content"></TextView>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginLeft="2dp"
+        android:layout_marginRight="2dp"
+        android:layout_marginTop="20dp"
+        android:layout_height="50dp">
+
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:id="@+id/search"
+            android:textColorHint="#022A67"
+            android:background="#B5B4B4"
+            android:hint="Enter location, city"
+            android:layout_height="match_parent"></EditText>
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_weight="0.15"
+            android:layout_gravity="center"
+            android:layout_marginLeft="5dp"
+            android:background="#5959EF"
+            android:padding="6dp"
+            android:src="@drawable/ic_baseline_search_24"
+            android:layout_height="match_parent"></ImageButton>
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_weight="0.15"
+            android:layout_gravity="center"
+            android:background="#5959EF"
+            android:layout_marginLeft="3dp"
+            android:padding="6dp"
+            android:src="@drawable/ic_baseline_location_on_24"
+            android:layout_height="match_parent"></ImageButton>
+    </LinearLayout>
+
+</LinearLayout>

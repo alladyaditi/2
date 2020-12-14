@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "626303821465",
+    "project_id": "noted-lead-291315",
+    "storage_bucket": "noted-lead-291315.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:626303821465:android:b95853a6e85eef9a347a08",
+        "android_client_info": {
+          "package_name": "com.aditi.yelp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "626303821465-ciimsf71opd07n370s4e15r84eupu1nc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCbq9HqQYoj_dXQUR8Uy4rAOq_A1EcwhTI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "626303821465-ciimsf71opd07n370s4e15r84eupu1nc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
